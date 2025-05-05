@@ -78,6 +78,37 @@ console.log(Names)
  arr=str.split(" ")
  console.log(arr)
 
+ //change the elements of array
+ arr=['raju','mohan','arjun','darshan']
+ console.log(arr[2]='Gopi')
+ console.log(arr)
+
+
+  //IndexOf()
+arr=['raju','mohan','arjun','darshan']
+console.log(arr.indexOf('raju'))
+
+//Includes()
+arr=['raju','mohan','arjun','darshan']
+console.log(arr.includes("raju"))
+
+//sort()
+arr=['Raju','mohan','Arjun','darshan']
+console.log(arr.sort())
+
+arr=[10,30,23,12,8,74]
+console.log(arr.sort())//[ 10, 12, 23, 30, 74, 8 ]
+
+//reverse a array
+arr=[10,30,23,12,8,74]
+console.log(arr.sort().reverse())//[ 8, 74, 30, 23, 12, 10 ]
+// reverse a string
+str='my name is mohan'
+//revstr=str.split("").reverse().join("")//nahom si eman ym
+revstr=str.split(" ").reverse().join(" ") //mohan is name my
+console.log(revstr)
+
+
 /*slice()
  it create a new  array from then existing array
  array.slice(start, end)
