@@ -32,14 +32,14 @@ if(true){
    console.log(Name)
 
 }
-reassign the different value is possible with var and let 
+//reassign the different value is possible with var and let 
 //reassign the different value is not possible with const
 
-const
+
  const  number = "48569869"
 {
    const number = "678954697"
-   const number="2y378"
+   //const number="2y378"
    console.log(number)
 }
  console.log(number)
@@ -48,7 +48,7 @@ const
  let a=1
  {
     let a =2
-      let a=4
+      //let a=4
     console.log(a)
  }
  console.log(a)
